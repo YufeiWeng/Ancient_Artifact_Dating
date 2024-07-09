@@ -351,5 +351,9 @@ In addition, please cite the original papers that introduced the datasets, as li
 ## Acknowledgements
 The design of the WILDS benchmark was inspired by the [Open Graph Benchmark](https://ogb.stanford.edu/), and we are grateful to the Open Graph Benchmark team for their advice and help in setting up WILDS.
 
-## For artifects of Cuneiform
-
+## For artifacts of Cuneiform
+After running
+```bash
+python examples/run_expt.py --dataset iwildcam --algorithm ERM --root_dir data
+```
+there will be a folder named data/iwildcam_v2.0/train/ in the root directory. 
