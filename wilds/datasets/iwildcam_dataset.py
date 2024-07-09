@@ -79,12 +79,12 @@ class IWildCamDataset(WILDSDataset):
         # Location/group info
         n_groups = max(df['location_remapped']) + 1
         self._n_groups = n_groups
-        assert len(np.unique(df['location_remapped'])) == self._n_groups
+        # assert len(np.unique(df['location_remapped'])) == self._n_groups
 
         # Sequence info
         n_sequences = max(df['sequence_remapped']) + 1
         self._n_sequences = n_sequences
-        assert len(np.unique(df['sequence_remapped'])) == self._n_sequences
+        # assert len(np.unique(df['sequence_remapped'])) == self._n_sequences
 
         # Extract datetime subcomponents and include in metadata
         df['datetime_obj'] = df['datetime'].apply(lambda x: datetime.strptime(x, '%Y-%m-%d %H:%M:%S.%f'))

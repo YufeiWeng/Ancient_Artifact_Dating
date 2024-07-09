@@ -233,7 +233,7 @@ dataset_defaults = {
         'val_metric': 'F1-macro_all',
         'model_kwargs': {'pretrained': True},
         'transform': 'image_base',
-        'target_resolution': (448, 448),
+        'target_resolution': (224, 224),
         'val_metric_decreasing': False,
         'algo_log_metric': 'accuracy',
         'model': 'resnet50',
