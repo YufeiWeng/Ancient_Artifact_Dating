@@ -350,3 +350,6 @@ In addition, please cite the original papers that introduced the datasets, as li
 
 ## Acknowledgements
 The design of the WILDS benchmark was inspired by the [Open Graph Benchmark](https://ogb.stanford.edu/), and we are grateful to the Open Graph Benchmark team for their advice and help in setting up WILDS.
+
+## For artifects of Cuneiform
+
