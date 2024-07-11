@@ -356,4 +356,6 @@ After running
 ```bash
 python examples/run_expt.py --dataset iwildcam --algorithm ERM --root_dir data
 ```
-there will be a folder named data/iwildcam_v2.0/train/ in the root directory. 
+there will be a folder named data/iwildcam_v2.0/train/ in the root directory. Replace the images in this folder with our cuneiform front/raw images. Then, run metadata_t2_t3.ipynb to generate categories.csv and metadata.csv for our training set following the WILDS format requirements. Everything is ready!
+
+The .sh files are examples of some experiments we have run. After the training, findMax.ipynb can quickly identify the best results.
